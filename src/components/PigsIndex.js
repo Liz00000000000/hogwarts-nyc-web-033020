@@ -12,7 +12,6 @@ export class PigsIndex extends Component {
 
     render() {
         let pigName = this.props.name.split(' ').join('_').toLowerCase()
-        console.log(pigName)
         let pigImage = require(`../hog-imgs/${pigName}.jpg`) //how can we dynamically generate the filename?
       
 
